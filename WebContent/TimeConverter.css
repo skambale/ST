@@ -1,0 +1,31 @@
+<style>
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #c1c4bb;
+} 
+#demo2 {
+	font: 100% Arial, Helvetica, sans-serif;
+	margin: 0 1em 1em 1em;
+	float: left; 
+	width: 300px; 
+	padding: 15px 0;
+}
+ 
+#ajaxGetUserServletResponse {
+  text-align: center;
+  color: #1233ed;
+}
+</style>
