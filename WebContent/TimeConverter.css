@@ -1,31 +1,87 @@
-<style>
 body {
-  background-color: powderblue;
+    background-color: powderblue;
+}
+
+#base-container {
+    width: 1200px;
+    height: 900px;
 }
 
 h1 {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+    font-family: verdana;
+    font-size: 20px;
 }
 
 button:hover {
-  background-color: #c1c4bb;
-} 
+    background-color: #c1c4bb;
+}
 #demo2 {
-	font: 100% Arial, Helvetica, sans-serif;
-	margin: 0 1em 1em 1em;
-	float: left; 
-	width: 300px; 
-	padding: 15px 0;
+    font: 100% Arial, Helvetica, sans-serif;
+    margin: 0 1em 1em 1em;
+    float: left;
+    width: 300px;
+    padding: 15px 0;
 }
- 
+
 #ajaxGetUserServletResponse {
-  text-align: center;
-  color: #1233ed;
+    text-align: center;
+    color: #1233ed;
 }
-</style>
+
+iframe {
+    margin: 10px 10px;
+}
+
+#clock-container {
+    width: 50%;
+    border-right: 2px solid;
+    display: inline-block;
+    height: inherit;
+}
+
+#tabs-container {
+    width: 50%;
+    position: absolute;
+    display: inline-block;
+}
+
+.tab {
+    display: inline-block;
+    width: 18%;
+}
+
+.tab-options {
+    width: 100%;
+    border: 2px solid black;
+    height: 45px;
+    margin: 0px 2px 0px 2px;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #62656d, #575965);
+    color: #c1c4bb;
+}
+
+#MarketPlace {
+    width: 120px;
+    border: 2px solid black;
+    height: 45px;
+    background: -webkit-linear-gradient(top, #62656d, #575965);
+    color: #c1c4bb;
+}
+#TimeStamp {
+    width: 235px;
+    border: 2px solid black;
+    height: 45px;
+    font-size: 15px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}

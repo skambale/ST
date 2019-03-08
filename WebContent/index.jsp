@@ -15,11 +15,18 @@
 <link rel="stylesheet" href="TimeConverter.css">		
 </head>
 <body style="background-color:powderblue;">
-<div align="left" id="demo1"><b>Current GMT Time</b></div>
+<div id="base-container">
+<section id="clock-container">
+<center><h3>Global Time Converter</h3></center>
+<b style="margin:50px">UK</b>
+<b style="margin:50px">US</b>
+<b style="margin:50px">IN</b>
 <div align="left" id="demo1">
 <iframe src="http://free.timeanddate.com/clock/i6nek63h/n85/szw110/szh110/hoced1c24/hbw10/cf100/hgr0/fiv0/fas34/fdi72/mqv0/mhc000/mhs3/mhl20/mhw1/mhd84/mmv0/hhs1/hms1/hsc000/hss1" frameborder="0" width="110" height="110"></iframe>
+<iframe src="http://free.timeanddate.com/clock/i6npxu3o/n234/szw110/szh110/hoced1c24/hbw10/cf100/hgr0/fiv0/fas34/fdi72/mqv0/mhc000/mhs3/mhl20/mhw1/mhd84/mmv0/hhs1/hms1/hsc000/hss1" frameborder="0" width="110" height="110"></iframe>
+<iframe src="http://free.timeanddate.com/clock/i6npy1qi/n438/szw110/szh110/hoced1c24/hbw10/cf100/hgr0/fiv0/fas34/fdi72/mqv0/mhc000/mhs3/mhl20/mhw1/mhd84/mmv0/hhs1/hms1/hsc000/hss1" frameborder="0" width="110" height="110"></iframe>
+
 </div>
-<center><h3>Global Time Converter</h3></center>
 <form>	
 
 <label for="MarketPlace">Market place:</label>
@@ -40,7 +47,7 @@
 <option value="IT">IT</option>
 </select>
 <label for="TimeStamp">Choose a TimeStamp:</label>
-<input type="datetime-local" id="TimeStamp" name="TimeStamp" value="2019-01-01T00:00">
+<input type="datetime-local" id="TimeStamp" name="TimeStamp" value="">
 
 </form>
 	<br>
@@ -55,5 +62,41 @@
 	<br>
 	<div id="ajaxGetUserServletResponse"></div>
 </center>
+</section>
+<section id="tabs-container">
+	<div class="tab">
+		<select class="tab-options" name="tab-options">
+				<option value="option1" selected >option1</option>
+				<option value="option2">option2</option>
+		</select>
+	</div>
+	<div class="tab">
+	<select class="tab-options" name="tab-options">
+			<option value="option1" selected>option1</option>
+			<option value="option2">option2</option>
+	</select>
+	</div>
+	<div class="tab">
+		<select class="tab-options" name="tab-options">
+				<option value="option1" selected>option1</option>
+				<option value="option2">option2</option>
+		</select>
+	</div>
+	<div class="tab">
+		<select class="tab-options" name="tab-options">
+				<option value="option1" selected>option1</option>
+				<option value="option2">option2</option>
+		</select>
+	</div>
+	<div class="tab">
+			<select class="tab-options" name="tab-options">
+					<option value="option1" selected>option1</option>
+					<option value="option2">option2</option>
+			</select>
+		</div>
+
+
+</section>
+</div>
 </body>
 </html>
