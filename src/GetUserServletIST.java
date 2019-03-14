@@ -63,7 +63,7 @@ public class GetUserServletIST extends HttpServlet {
 				cal.add(Calendar.MINUTE, +810);
 				Date SubtractedDate = cal.getTime();
 				sdf.setTimeZone(TimeZone.getTimeZone("IST"));*/
-				response.getWriter().write("You are hitting wrong button!");
+				response.getWriter().write("You are hitting wrong Test!");
 			}
 			
 			
